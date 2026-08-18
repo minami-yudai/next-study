@@ -8,7 +8,7 @@ export default function Home() {
       <div className="m-10">
         <section>
             <h1>このサイトは何か？</h1>
-            <p>これはnext.jsを勉強するために作られたブログサイトです。</p>
+            <p>これはnext.jsを勉強するために作られたブログサイトです。next.jsって何でも出来すぎて逆に怖いくらい。。。</p>
         </section>
         <section>
             <h1>ブログを書いているのは誰か？</h1>

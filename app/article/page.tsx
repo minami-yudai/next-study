@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Home(){
   return (
     <div>
-      <section>
-            <h1>ここはarticleページ</h1>
-            <p>なんもねえよ</p>
+        <section>
+          <h1>記事の一覧</h1>
+          <p>なんもねえ</p>
         </section>
     </div>
   );

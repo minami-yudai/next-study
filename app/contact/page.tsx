@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <section>
             <h1>ここはcontactページ</h1>
-            <p>なんもねえよ</p>
+            <p>なんもねえよ俺ら</p>
         </section>
     </div>
   );

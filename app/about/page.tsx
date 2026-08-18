@@ -3,7 +3,7 @@ export default function Home() {
     <div>
         <section>
             <h1>ここはaboutページ</h1>
-            <p>なんもねえよ</p>
+            <p>なんもねえ</p>
         </section>
     </div>
   );
