@@ -1,21 +1,22 @@
+import { title } from "@/app/strings.json";
+import { menu } from "@/app/strings.json";
+import { menulink } from "@/app/strings.json";
 
 function Item({ name , link }: { name: string ; link : string}) {
   return (
     <a href={link}><li className="hover:border-b-2 hover:border-white">{name}</li></a>
   );
 }
-const menus : string[] = ["HOME", "ABOUT", "ARTICLE", "CONTACT"]
-const links : string[] = ["/", "/about", "/article", "/contact"]
 
 export default function Header() {
 
   return(
-    <header className="flex items-end text-white bg-gray-800">
-        <div className="text-3xl pr-6 align-bottom">みなみblog</div>
+    <header className="flex items-end text-gray-200 bg-gray-800">
+        <div className="text-3xl m-2 mr-8 align-bottom pr-8 border-r-2 border-white">{title}</div>
         <div>
-            <ul className="h-12 flex gap-4 items-end">
-                {menus.map((name : string, index : number) => (
-                      <Item key = {index} name={name} link ={links[index]}/>
+            <ul className="h-12 flex gap-4 items-end mb-2">
+                {menu.map((name : string, index : number) => (
+                      <Item key = {index} name={name} link ={menulink[index]}/>
                 ))}
             </ul>
         </div>
